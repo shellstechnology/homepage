@@ -1,0 +1,143 @@
+:root{
+   --colorFondoClaro: rgb(240, 240, 240);
+   --colorBordesClaro: #3A4138;
+   --colorFondosOscuros: #FFFFFF;
+   --colorLetrasOscuras: #FFFFFF;
+   --pruebaColorFondo: #f3dcbe;
+   --FondoDelHeader: #000000;
+}
+a{
+   text-decoration: none;
+}
+.headerDivPrincipal{
+   height: 70px;
+   width: 100%;
+   display: flex;
+   flex-direction: row; 
+   flex-wrap: wrap;
+   border-color: var(--colorBordesClaro);
+   background-color: var(--FondoDelHeader);
+   align-content:space-evenly;
+
+}
+.logoHeader{
+width: 80px;
+height: 69px;
+}
+.divsHijosHeader{
+   width: 25%;
+   text-align: center;
+   margin: auto;
+   
+}
+.divsHijosHeader button{
+   background-color: var(--FondoDelHeader);
+   border-radius: 20px;
+   color: white;
+}
+.divsHijosHeader a{
+   color: white;
+}
+.quienesSomos{
+   display: inline-block;
+   position: relative;
+   background-color: var(--FondoDelHeader);
+   color: var(--FondoDelHeader);
+}
+.quienesSomos button{
+    background-color: var(--FondoDelHeader);
+    border: none;
+}
+.opcionesQuienesSomos{
+   display: none;
+   position: absolute;
+   width: 100%;
+   overflow: auto;
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0.2);
+    background-color: var(--FondoDelHeader);
+
+}
+.opcionesQuienesSomos a{
+display: block;
+color: var(--colorFondosOscuros);
+padding: 5px;
+}
+.opcionesQuienesSomos a:hover{
+   color: var(--colorLetrasOscuras);
+   background-color: cyan;
+}
+.quienesSomos:hover .opcionesQuienesSomos{
+display: block;
+}
+.divPrincipalBody{
+   background-color: var(--pruebaColorFondo);
+   height: 100%;
+   width: 100%;
+   border-width:2px;
+   border-color: var(--colorBordesClaro);
+   border-style: groove;
+   display: flex;
+   align-content:space-around;
+   padding: 10px;
+   
+}
+
+.contenido{
+   width: 99%;
+   height: 90%;
+   margin: 10px;
+}
+
+.c-item{
+height: 380px;
+}
+.c-img{
+height: 100%;
+width: 100%;
+}
+.paginasDisponibles{
+   width: 100%;
+   height: 30%;
+   display: flex;
+   align-content:space-evenly;
+   margin: 10px;
+}
+.paginasDisponiblesHijos{
+   width: 25%;
+   height: 100%;
+   border-width: 1px;
+   border-color:var(--colorBordesClaro);
+   border-style: none;
+   text-align: center;
+   margin: auto;
+   border-radius: 20px;
+   text-decoration: none;
+   color: black;
+
+}
+.paginasDisponiblesHijos button{
+   border-radius: 20px;
+   background-color: var(--FondoDelHeader);
+   text-decoration-color: black;
+   color: white;
+}
+.paginasDisponiblesHijos a{
+   color: white;
+}
+.divPrincipalFooter{
+   width: 100%;
+   height: 39px;
+   border-width: 1px;
+   background-color: var(--FondoDelHeader);
+   border-color:var(--colorBordesClaro);
+   border-style: groove;
+   text-align: center;
+   align-content:space-evenly;
+   display: flex;
+ position: absolute;
+}
+.divHijoFooter{
+   width: 30%;
+   height: 100%;
+   color: white;
+}
