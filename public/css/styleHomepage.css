@@ -1,4 +1,4 @@
-:root{
+:root {
    --colorFondoClaro: rgb(240, 240, 240);
    --colorBordesClaro: #3A4138;
    --colorFondosOscuros: #FFFFFF;
@@ -6,148 +6,187 @@
    --pruebaColorFondo: #f3dcbe;
    --FondoDelHeader: #000000;
 }
-a{
+
+body {
+   margin: 0;
+   padding: 0;
+   font-family: Roboto;
+}
+
+a {
    text-decoration: none;
 }
-.headerDivPrincipal{
+
+.headerDivPrincipal {
    height: 70px;
    width: 100%;
    display: flex;
-   flex-direction: row; 
+   flex-direction: row;
    flex-wrap: wrap;
    border-color: var(--colorBordesClaro);
    background-color: var(--FondoDelHeader);
-   align-content:space-evenly;
+   align-content: space-evenly;
 
 }
-.logoHeader{
-width: 80px;
-height: 69px;
+
+.logoHeader {
+   width: 80px;
+   height: 69px;
 }
-.divsHijosHeader{
+
+.divsHijosHeader {
    width: 25%;
    text-align: center;
    margin: auto;
-   
+
 }
-.divsHijosHeader button{
+
+.divsHijosHeader button {
    background-color: var(--FondoDelHeader);
    border-radius: 20px;
    color: white;
    border: none;
 }
 
-.divsHijosHeader a{
+.divsHijosHeader a {
    color: white;
+   text-decoration: none;
 }
 
-.quienesSomos{
+.quienesSomos {
    display: inline-block;
    position: relative;
    background-color: var(--FondoDelHeader);
    color: var(--FondoDelHeader);
 }
-.quienesSomos button{
-    background-color: var(--FondoDelHeader);
-    border: none;
+
+.quienesSomos button {
+   background-color: var(--FondoDelHeader);
+   border: none;
 }
-.opcionesQuienesSomos{
+
+.opcionesQuienesSomos {
    display: none;
    position: absolute;
    width: 100%;
    overflow: auto;
-   box-shadow: 0px 8px 16px 0px rgba(0,0,0.2);
-    background-color: var(--FondoDelHeader);
+   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0.2);
+   background-color: var(--FondoDelHeader);
 
 }
-.opcionesQuienesSomos a{
-display: block;
-color: var(--colorFondosOscuros);
-padding: 5px;
+
+.opcionesQuienesSomos a {
+   display: block;
+   color: var(--colorFondosOscuros);
+   padding: 5px;
 }
-.opcionesQuienesSomos a:hover{
+
+.opcionesQuienesSomos a:hover {
    color: var(--FondoDelHeader);
    background-color: var(--pruebaColorFondo);
 }
-.quienesSomos:hover .opcionesQuienesSomos{
-display: block;
+
+.quienesSomos:hover .opcionesQuienesSomos {
+   display: block;
 }
-.divPrincipalBody{
+
+.divPrincipalBody {
    background-color: var(--pruebaColorFondo);
    height: 100%;
    width: 100%;
-   border-width:2px;
+   border-width: 2px;
    border-color: var(--colorBordesClaro);
    border-style: groove;
    display: flex;
-   align-content:space-around;
+   align-content: space-around;
    padding: 10px;
-   
+
 }
 
-.contenido{
+.contenido {
    width: 99%;
    height: 90%;
    margin: 10px;
 }
 
-.c-item{
-height: 400px;
-width: 280px;
+.c-item {
+   height: 400px;
+   width: 280px;
 }
-.c-img{
-height: 100%;
-width: 100%;
+
+.c-img {
+   height: 100%;
+   width: 100%;
 }
-.paginasDisponibles{
+
+.paginasDisponibles {
    width: 30%;
    height: 100%;
    display: flex;
-   align-content:space-around;
+   align-content: space-around;
    margin: 10px;
-   flex-direction:column;
+   flex-direction: column;
    border-color: black;
    border-width: 2px;
-   border-style:ridge;
+   border-style: ridge;
 }
-.paginasDisponiblesHijos{
-   width: 100%%;
+
+.paginasDisponiblesHijos {
+   width: 100%;
    height: 100%;
    border-width: 1px;
-   border-color:var(--colorBordesClaro);
+   border-color: var(--colorBordesClaro);
    border-style: none;
    text-align: center;
    margin: auto;
    border-radius: 20px;
    text-decoration: none;
    color: black;
-   margin-bottom:80px;
-   margin-top:80px;
+   margin-top: 50px;
+   margin-bottom: 50px;
+}
 
-}
-.paginasDisponiblesHijos button{
-   border-radius: 20px;
+.paginasDisponiblesHijos button {
+   border-radius: 2px;
+   width: 70%;
+   height: 90px;
    background-color: var(--FondoDelHeader);
-   text-decoration-color: black;
    color: white;
 }
-.paginasDisponiblesHijos a{
+
+.paginasDisponiblesHijos a {
    color: white;
+   text-decoration: none;
+   font-size: 35px;
+   font-family: Roboto;
 }
-.divPrincipalFooter{
+
+
+.divPrincipalFooter {
    width: 100%;
-   height: 39px;
+   height: 70px;
    border-width: 1px;
    background-color: var(--FondoDelHeader);
-   border-color:var(--colorBordesClaro);
+   border-color: var(--colorBordesClaro);
    border-style: groove;
-   text-align: center;
-   align-content:space-evenly;
    display: flex;
- position: absolute;
+   text-align: center;
+   align-content: space-evenly;
+   position: absolute;
 }
-.divHijoFooter{
-   width: 30%;
+
+.divHijoFooter {
+   width: 50%;
    height: 100%;
    color: white;
+}
+
+#mensajeIntroduccion {
+   font-size: 25px;
+   font-weight: 200;
+}
+
+#mensajeMarcas {
+   font-size: 40px;
+   font-weight: 700;
 }
