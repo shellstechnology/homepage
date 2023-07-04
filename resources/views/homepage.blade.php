@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="img\Logo Aplicación.png">
+    <link rel="icon" href="Logo Aplicación.png">
     <link rel="stylesheet" href="css/styleHomepage.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
@@ -50,8 +50,8 @@
 <body>
   
     <div class="divPrincipalBody">
-         <div class="contenido">hola soy un div en el body
-                <div>FastTracker ofrece un increible servicio de mensajeria y paqueteria con una red que abarca todo uruguay con sucursales añadidas con el tiempo</div>
+         <div class="contenido">FastTracker ofrece un increible servicio de mensajeria y paqueteria con una red que abarca todo uruguay con sucursales añadidas con el tiempo
+                <div> <h3>Reconocidas marcas que trabajan con nosotros</h3></div>
                                      
                                           <div id="sliderConFotos" class="carousel slide" data-bs-ride="carousel">
                                             <div id="carouselExampleIndicators" class="carousel slide">
@@ -62,10 +62,10 @@
                                               </div>
                                               <div class="carousel-inner">
                                                 <div class="carousel-item active c-item">
-                                                  <img class="d-block w-100 c-img" src="img/mercadolibre.jpg" alt="dac">
+                                                  <img class="d-block w-100 c-img" src="img/Logo Crecom.png" alt="Crecom">
                                                 </div>
                                                 <div class="carousel-item c-item">
-                                                  <img class="d-block w-100 c-img" src="img/dac.png" alt="MercadoLibre">
+                                                  <img class="d-block w-100 c-img" src="img/Quick Carry.png" alt="Quick carry">
                                                 </div>
                                                 
                                               </div>
@@ -82,7 +82,12 @@
                 <span id="slide-1"></span>
                  <span id="slide-2"></span>
                    <br>
-                          <div class="paginasDisponibles">
+                          
+         </div>  
+          
+        </div>
+         
+          <div class="paginasDisponibles">
                               <div class="paginasDisponiblesHijos">
                                   <button>
                                      <a href="">Buscar paquete</a>
@@ -100,9 +105,6 @@
 
                               </div>
                           </div>
-         </div>   
-        </div>
-         
       
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
