@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="Logo Aplicación.png">
-    <link rel="stylesheet" href="css/styleHomepage.css">
+    <link rel="stylesheet" href="/css/styleHomepage.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
@@ -22,36 +22,35 @@
     <div class="headerDivPrincipal">
 
         <div class="divsHijosHeader">
-            <a href="index.html"><img class="logoHeader" src="img\Logo Aplicación.png" alt="Fastracker">Inicio </a>
+            <a href=""><img class="logoHeader" src="img\Logo Aplicación.png" alt="Fastracker">HomePage </a>
         </div>
 
 
         <div class="divsHijosHeader">
             <button>
-                <a href="">Presentacion</a>
+                <a href="">Presentation</a>
             </button>
         </div>
         <div class="divsHijosHeader">
             <div class="quienesSomos">
-                <button>Quienes Somos
-                </button>
+                <button>About Us</button>
                 <div class="opcionesQuienesSomos">
-                    <a href="">Ubicaciones</a>
-                    <a href="">Trabaja con nosotros</a>
+                    <a href="">Ubications</a>
+                    <a href="">Work with us</a>
                 </div>
             </div>
         </div>
         <div class="divsHijosHeader">
             <button>
-                <a href="">Iniciar sesion</a>
+                <a href="">Log in</a>
             </button>
         </div>
-        <div class="divsHijosHeader">
-            <a href="http://localhost:8000/homepageEn" target="_blank">
-                <div class="checkboxCambioIdioma">
-                    <input type='checkbox' />
-                    <span class="encender"></span>
-                </div>
+        <div class="divsHijosHeader"">
+            <a href=" http://localhost:8000" target="_blank">
+            <div class="checkboxCambioIdiomaEn">
+                <input type='checkbox' />
+                <span class="encender"></span>
+            </div>
             </a>
         </div>
     </div>
@@ -60,10 +59,10 @@
 
     <div class="divPrincipalBody">
         <div class="contenido">
-            <span id="mensajeIntroduccion">FastTracker ofrece un increible servicio de mensajeria y paqueteria con una red que abarca
-                todo uruguay con sucursales añadidas con el tiempo</span>
+            <span id="mensajeIntroduccion">FastTracker offers an incredible courier and parcel service with a network that spans
+                all uruguay with branches added over time</span>
             <div>
-                <span id="mensajeMarcas">Reconocidas marcas que trabajan con nosotros</span>
+                <span id="mensajeMarcas">Renowned brands that work with us</span>
             </div>
 
             <div id="sliderConFotos" class="carousel slide" data-bs-ride="carousel">
@@ -103,17 +102,17 @@
         <div class="paginasDisponibles">
             <div class="paginasDisponiblesHijos">
                 <button>
-                    <a href="">Paquetes</a>
+                    <a href="">Packages</a>
                 </button>
             </div>
             <div class="paginasDisponiblesHijos">
                 <button>
-                    <a href="">Almacenes</a>
+                    <a href="">Warehouses</a>
                 </button>
             </div>
             <div class="paginasDisponiblesHijos">
                 <button>
-                    <a href="">Choferes</a>
+                    <a href="">Drivers</a>
                 </button>
 
             </div>
@@ -128,10 +127,10 @@
 <footer>
     <div class="divPrincipalFooter">
         <div class="divHijoFooter">
-            © FastTracker todos los derechos reservados
+            © FastTracker All rights reserved
         </div>
         <div class="divHijoFooter">
-            Redes sociales
+            Social Media
         </div>
     </div>
 </footer>
