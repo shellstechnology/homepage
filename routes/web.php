@@ -19,3 +19,6 @@ Route::get('/', function () {
 Route::get('/homepageEn', function () {
     return view('homepageEn');
 });
+Route::get('/presentacion', function () {
+    return view('presentacion');
+});

@@ -17,51 +17,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 
     <title>Fast tracker</title>
-</head>
-<header>
-    <div class="headerDivPrincipal">
 
-        <div class="divsHijosHeader">
-            <a href="index.html"><img class="logoHeader" src="img\Logo Aplicación.png" alt="Fastracker">Inicio </a>
-        </div>
+    <?php 
+        require 'header.php';
+    ?>
 
-
-        <div class="divsHijosHeader">
-            <button>
-                <a href="">Presentacion</a>
-            </button>
-        </div>
-        <div class="divsHijosHeader">
-            <div class="quienesSomos">
-                <button>Quienes Somos
-                </button>
-                <div class="opcionesQuienesSomos">
-                    <a href="">Ubicaciones</a>
-                    <a href="">Trabaja con nosotros</a>
-                </div>
-            </div>
-        </div>
-        <div class="divsHijosHeader">
-            <button>
-                <a href="">Iniciar sesion</a>
-            </button>
-        </div>
-        <div class="divsHijosHeader">
-            <a href="http://localhost:8000/homepageEn" target="_blank">
-                <div class="checkboxCambioIdioma">
-                    <input type='checkbox' />
-                    <span class="encender"></span>
-                </div>
-            </a>
-        </div>
-    </div>
-</header>
 <body>
 
     <div class="divPrincipalBody">
         <div class="contenido">
-            <span id="mensajeIntroduccion">FastTracker ofrece un increible servicio de mensajeria y paqueteria con una red que abarca
-                todo uruguay con sucursales añadidas con el tiempo</span>
             <div>
                 <span id="mensajeMarcas">Reconocidas marcas que trabajan con nosotros</span>
             </div>
@@ -125,14 +89,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
 
 </body>
-<footer>
-    <div class="divPrincipalFooter">
-        <div class="divHijoFooter">
-            © FastTracker todos los derechos reservados
-        </div>
-        <div class="divHijoFooter">
-            Redes sociales
-        </div>
-    </div>
-</footer>
+<?php 
+require 'footer.php';
+?>
 </html>
