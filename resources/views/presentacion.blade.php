@@ -11,9 +11,18 @@
 <body>
     @include("header")
     <div class="divPrincipalBody">
-        <div class="contenido">
-            <span id="mensajeIntroduccion">FastTracker ofrece un increible servicio de mensajeria y paqueteria con una red que abarca
-                todo uruguay con sucursales añadidas con el tiempo</span>
+        <div class="contenidoPresentación">
+            <div class="mensajes">
+                <span id="mensajeIntroduccion">
+                    <p>FastTracker ofrece un increible servicio de mensajeria y paqueteria con una red que abarca
+                        todo uruguay con sucursales añadidas con el tiempo.</p>
+                    <p>FastTracker esta diseñado para facilitar los procesos de organización a la hora de
+                        distribuir paquetes por todo el uruguay.</p>
+                </span>
+            </div>
+            <div style="margin-right: 50px">
+                <img src="img/camion.jpg" alt="camion" width="500" height="500">
+            </div>
         </div>
     </div>
 </body>
