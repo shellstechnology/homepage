@@ -1,3 +1,7 @@
+<head>
+    <link rel="stylesheet" href="css\styleFooter.css">
+</head>
+
 <footer>
     <div class="divPrincipalFooter">
         <div class="divHijoFooter">

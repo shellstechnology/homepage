@@ -1,8 +1,13 @@
+<head>
+    <link rel="stylesheet" href="css\styleHeader.css">
+</head>
+
 <header>
     <div class="headerDivPrincipal">
 
         <div class="divsHijosHeader">
-            <a href="index.html"><img class="logoHeader" src="img\Logo Aplicación.png" alt="Fastracker">Inicio </a>
+            <a href=""><img class="logoHeader" src="img\Logo Aplicación.png" alt="Fastracker">
+            </a>
         </div>
 
 

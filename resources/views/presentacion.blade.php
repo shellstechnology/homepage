@@ -8,37 +8,8 @@
     <link rel="stylesheet" href="css/styleHomepage.css">
     <title>Presentación</title>
 </head>
-<header>
-    <div class="headerDivPrincipal">
-        <div class="divsHijosHeader">
-            <a href="http://localhost:8000"><img class="logoHeader" src="img\Logo Aplicación.png" alt="Fastracker"></a>
-        </div>
-        <div class="divsHijosHeader">
-            <div class="quienesSomos">
-                <button>Quienes Somos
-                </button>
-                <div class="opcionesQuienesSomos">
-                    <a href="">Ubicaciones</a>
-                    <a href="">Trabaja con nosotros</a>
-                </div>
-            </div>
-        </div>
-        <div class="divsHijosHeader">
-            <button>
-                <a href="">Iniciar sesion</a>
-            </button>
-        </div>
-        <div class="divsHijosHeader">
-            <a href="http://localhost:8000/homepageEn" target="_blank">
-                <div class="checkboxCambioIdioma">
-                    <input type='checkbox' />
-                    <span class="encender"></span>
-                </div>
-            </a>
-        </div>
-    </div>
-</header>
 <body>
+    @include("header")
     <div class="divPrincipalBody">
         <div class="contenido">
             <span id="mensajeIntroduccion">FastTracker ofrece un increible servicio de mensajeria y paqueteria con una red que abarca
@@ -46,14 +17,5 @@
         </div>
     </div>
 </body>
-<footer>
-    <div class="divPrincipalFooter">
-        <div class="divHijoFooter">
-            © FastTracker todos los derechos reservados
-        </div>
-        <div class="divHijoFooter">
-            Redes sociales
-        </div>
-    </div>
-</footer>
+@include("footer")
 </html>
