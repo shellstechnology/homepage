@@ -9,13 +9,6 @@
             <a href=""><img class="logoHeader" src="img\Logo Aplicación.png" alt="Fastracker">
             </a>
         </div>
-
-
-        <div class="divsHijosHeader">
-            <button>
-                <a href="http://localhost:8000/presentacion">Presentacion</a>
-            </button>
-        </div>
         <div class="divsHijosHeader">
             <div class="quienesSomos">
                 <button>Quienes Somos
@@ -23,6 +16,7 @@
                 <div class="opcionesQuienesSomos">
                     <a href="">Ubicaciones</a>
                     <a href="">Trabaja con nosotros</a>
+                    <a href="http://localhost:8000/presentacion">Presentacion</a>
                 </div>
             </div>
         </div>
