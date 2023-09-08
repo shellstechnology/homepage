@@ -16,7 +16,7 @@
                 <div class="opcionesQuienesSomos">
                     <a href="">Ubications</a>
                     <a href="">Work with us</a>
-                    <a href="http://localhost:8000/presentacion">Presentation</a>
+                    <a href="http://localhost:8000/presentation">Presentation</a>
                 </div>
             </div>
         </div>

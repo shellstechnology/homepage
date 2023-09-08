@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    @include("header")
+    @include("headerEn")
     <div class="divPrincipalBody">
         <div class="contenidoPresentación">
             <div class="mensajes">
@@ -28,6 +28,6 @@
         </div>
     </div>
 </body>
-@include("footer")
+@include("footerEn")
 
 </html>
