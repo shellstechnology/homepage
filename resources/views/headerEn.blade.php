@@ -6,7 +6,7 @@
     <div class="headerDivPrincipal">
 
         <div class="divsHijosHeader">
-            <a href="http://localhost:8000/homepageEn"><img class="logoHeader" src="img\Logo Aplicación.png" alt="Fastracker">
+            <a href="/homepageEn"><img class="logoHeader" src="img\Logo Aplicación.png" alt="Fastracker">
             </a>
         </div>
         <div class="divsHijosHeader">
@@ -14,7 +14,7 @@
                 <button>Who are We
                 </button>
                 <div class="opcionesQuienesSomos">
-                    <a href="http://localhost:8000/presentation">Presentation</a>
+                    <a href="/presentation">Presentation</a>
                     <a href="">Ubications</a>
                     <a href="">Work with us</a>
                 </div>
@@ -22,11 +22,11 @@
         </div>
         <div class="divsHijosHeader">
             <button>
-                <a href="http://localhost:8000/loginEn">Log In</a>
+                <a href="/loginEn">Log In</a>
             </button>
         </div>
         <div class="divsHijosHeader">
-            <a href="http://localhost:8000/homepage" target="_blank">
+            <a href="/" target="_blank">
                 <div class="checkboxCambioIdioma">
                     <input type='checkbox' />
                     <span class="encender"></span>
