@@ -28,3 +28,7 @@ Route::get('/presentation', function () {
 Route::get('/login', function () {
     return view('login');
 });
+
+Route::get('/loginEn', function () {
+    return view('loginEn');
+});
