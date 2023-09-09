@@ -11,6 +11,9 @@
     <div class="principalBody">
         <div>
             <div class="formulario">
+                <div class="titulo">
+                    <h1>Log-in</h1>
+                </div>
                 <div class="imagenLogo">
                     <div style="margin-top: 50px;">
                         <img src="\img\Logo Aplicación.png" alt="FastTrackerLogo" width="150" height="150">
