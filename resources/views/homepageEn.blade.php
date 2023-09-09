@@ -23,8 +23,6 @@
 
     <div class="divPrincipalBody">
         <div class="contenido">
-            <span id="mensajeIntroduccion">FastTracker offers an incredible courier and parcel service with a network that spans
-                all uruguay with branches added over time</span>
             <div>
                 <span id="mensajeMarcas">Renowned brands that work with us</span>
             </div>
