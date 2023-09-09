@@ -37,3 +37,9 @@ Route::get('/ubicaciones', function () {
 Route::get('/ubications', function () {
     return view('ubications');
 });
+Route::get('/trabajaConNosotros', function () {
+    return view('trabaja');
+});
+Route::get('/workWithUs', function () {
+    return view('work');
+});

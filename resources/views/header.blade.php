@@ -16,7 +16,7 @@
                 <div class="opcionesQuienesSomos">
                     <a href="/presentacion">Presentacion</a>
                     <a href="/ubicaciones">Ubicaciones</a>
-                    <a href="">Trabaja con nosotros</a>
+                    <a href="/trabajaConNosotros">Trabaja con nosotros</a>
                 </div>
             </div>
         </div>
