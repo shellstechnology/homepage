@@ -15,7 +15,7 @@
                 </button>
                 <div class="opcionesQuienesSomos">
                     <a href="/presentation">Presentation</a>
-                    <a href="">Ubications</a>
+                    <a href="/ubications">Ubications</a>
                     <a href="">Work with us</a>
                 </div>
             </div>

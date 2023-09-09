@@ -31,3 +31,9 @@ Route::get('/login', function () {
 Route::get('/loginEn', function () {
     return view('loginEn');
 });
+Route::get('/ubicaciones', function () {
+    return view('ubicaciones');
+});
+Route::get('/ubications', function () {
+    return view('ubications');
+});
