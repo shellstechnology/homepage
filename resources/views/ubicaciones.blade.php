@@ -18,17 +18,8 @@
 <body>
     <div class="principalBody">
         <div>
-            <div>
-                <label for="nombre">Nombre:</label>
-                <input type="text" id="nombre" />
-                <label for="puntos">Puntos (latitud, longitud):</label>
-                <input type="text" id="puntos" />
-                <button onclick="agregarPunto()">Agregar Punto</button>
-            </div>
             <div id="map">
-
             </div>
-
         </div>
     </div>
 </body>
