@@ -23,7 +23,6 @@ window.addEventListener("DOMContentLoaded", (event) => {
     var mapa=document.getElementById('map');
     if(mapa=!null){
         crearMapa();
-        verificarMapa();
         agregarPunto();
 
     }
@@ -46,36 +45,5 @@ function crearMapa() {
     }
 }
 
-function verificarMapa() {
-    map.locate({ setView: true, maxZoom: 16 });
-    map.on('locationfound', onLocationFound);
-    map.on('locationerror', onLocationError);
-}
 
-function onLocationFound(e) {
-    if (ubicacion != e) {
-        if (circulo != null) {
-            eliminarPuntos();
-        }
-        crearPuntos(e);
-    }
-}
-
-function onLocationError(e) {
-    alert(e.message);
-    controlBoton = 1;
-}
-
-function eliminarPuntos() {
-    map.removeLayer(marcador);
-    map.removeLayer(circulo);
-}
-
-function crearPuntos(e) {
-    var radius = e.accuracy / 2;
-    marcador = L.marker(e.latlng).addTo(map)
-        .bindPopup("¡Estás aquí!").openPopup();
-    circulo = L.circle(e.latlng, radius).addTo(map);
-    ubicacion = e.latlng;
-}
 
