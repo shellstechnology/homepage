@@ -22,3 +22,24 @@ Route::get('/homepageEn', function () {
 Route::get('/presentacion', function () {
     return view('presentacion');
 });
+Route::get('/presentation', function () {
+    return view('presentation');
+});
+Route::get('/login', function () {
+    return view('login');
+});
+Route::get('/loginEn', function () {
+    return view('loginEn');
+});
+Route::get('/ubicaciones', function () {
+    return view('ubicaciones');
+});
+Route::get('/ubications', function () {
+    return view('ubications');
+});
+Route::get('/trabajaConNosotros', function () {
+    return view('trabaja');
+});
+Route::get('/workWithUs', function () {
+    return view('work');
+});

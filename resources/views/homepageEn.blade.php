@@ -18,49 +18,11 @@
 
     <title>Fast tracker</title>
 </head>
-<header>
-    <div class="headerDivPrincipal">
-
-        <div class="divsHijosHeader">
-            <a href=""><img class="logoHeader" src="img\Logo Aplicación.png" alt="Fastracker">HomePage </a>
-        </div>
-
-
-        <div class="divsHijosHeader">
-            <button>
-                <a href="">Presentation</a>
-            </button>
-        </div>
-        <div class="divsHijosHeader">
-            <div class="quienesSomos">
-                <button>About Us</button>
-                <div class="opcionesQuienesSomos">
-                    <a href="">Ubications</a>
-                    <a href="">Work with us</a>
-                </div>
-            </div>
-        </div>
-        <div class="divsHijosHeader">
-            <button>
-                <a href="">Log in</a>
-            </button>
-        </div>
-        <div class="divsHijosHeader"">
-            <a href=" http://localhost:8000" target="_blank">
-            <div class="checkboxCambioIdiomaEn">
-                <input type='checkbox' />
-                <span class="encender"></span>
-            </div>
-            </a>
-        </div>
-    </div>
-</header>
+@include("headerEn")
 <body>
 
     <div class="divPrincipalBody">
         <div class="contenido">
-            <span id="mensajeIntroduccion">FastTracker offers an incredible courier and parcel service with a network that spans
-                all uruguay with branches added over time</span>
             <div>
                 <span id="mensajeMarcas">Renowned brands that work with us</span>
             </div>
@@ -124,14 +86,5 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
 
 </body>
-<footer>
-    <div class="divPrincipalFooter">
-        <div class="divHijoFooter">
-            © FastTracker All rights reserved
-        </div>
-        <div class="divHijoFooter">
-            Social Media
-        </div>
-    </div>
-</footer>
+@include("footerEn")
 </html>

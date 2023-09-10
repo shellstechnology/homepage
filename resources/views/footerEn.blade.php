@@ -1,10 +1,14 @@
+<head>
+    <link rel="stylesheet" href="css\styleFooter.css">
+</head>
+
 <footer>
     <div class="divPrincipalFooter">
         <div class="divHijoFooter">
-            © FastTracker todos los derechos reservados
+            © FastTracker all right reserved
         </div>
         <div class="divHijoFooter">
-            Redes sociales
+            Social Media
         </div>
     </div>
 </footer>
