@@ -11,7 +11,7 @@
         </div>
         <div class="divsHijosHeader">
             <div class="quienesSomos">
-                <button>Quienes Somos
+                <button style="width: 100px;">Quienes Somos
                 </button>
                 <div class="opcionesQuienesSomos">
                     <a href="/presentacion">Presentacion</a>

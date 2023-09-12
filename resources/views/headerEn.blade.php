@@ -6,13 +6,11 @@
     <div class="headerDivPrincipal">
 
         <div class="divsHijosHeader">
-            <a href="/homepageEn"><img class="logoHeader" src="img\Logo Aplicación.png" alt="Fastracker">
-            </a>
+            <a href="/homepageEn"><img class="logoHeader" src="img\Logo Aplicación.png" alt="Fastracker"></a>
         </div>
         <div class="divsHijosHeader">
             <div class="quienesSomos">
-                <button>Who are We
-                </button>
+                <button>About Us</button>
                 <div class="opcionesQuienesSomos">
                     <a href="/presentation">Presentation</a>
                     <a href="/ubications">Ubications</a>

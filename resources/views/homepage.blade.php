@@ -22,42 +22,46 @@
     @include("header")
     <div class="divPrincipalBody">
         <div class="contenido">
-            <div>
+            <div class="mensajeMarcas">
                 <span id="mensajeMarcas">Reconocidas marcas que trabajan con nosotros</span>
             </div>
+            <div class="carruselDiv">
 
-            <div id="sliderConFotos" class="carousel slide" data-bs-ride="carousel">
-                <div id="carouselExampleIndicators" class="carousel slide">
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <div class="carrusel">
+                    <div class="carousel slide" data-bs-ride="carousel">
+                        <div id="carouselExampleIndicators" class="carousel slide">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active c-item">
+                                    <img class="d-block w-80 c-img" src="img/Logo Crecom.png" alt="Crecom">
+                                </div>
+                                <div class="carousel-item c-item">
+                                    <img class="d-block w-80 c-img" src="img/Quick Carry.png" alt="Quick carry">
+                                </div>
+
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+
+                        <span id="slide-1"></span>
+                        <span id="slide-2"></span>
+                        <br>
 
                     </div>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active c-item">
-                            <img class="d-block w-100 c-img" src="img/Logo Crecom.png" alt="Crecom">
-                        </div>
-                        <div class="carousel-item c-item">
-                            <img class="d-block w-100 c-img" src="img/Quick Carry.png" alt="Quick carry">
-                        </div>
 
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
                 </div>
-
-                <span id="slide-1"></span>
-                <span id="slide-2"></span>
-                <br>
-
             </div>
-
         </div>
 
         <div class="paginasDisponibles">

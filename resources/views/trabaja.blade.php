@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/styleLogin.css">
     <title>Trabaja con Nosotros</title>
 </head>
+@include("header")
 <body>
     <div class="principalBody">
         <div>
@@ -28,4 +29,5 @@
         </div>
     </div>
 </body>
+@include("footer")
 </html>

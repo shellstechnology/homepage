@@ -38,7 +38,7 @@ a {
 
 .c-item {
    height: 400px;
-   width: 280px;
+   width: 250px;
 }
 
 .c-img {
@@ -88,14 +88,8 @@ a {
    font-family: Roboto;
 }
 
-#mensajeIntroduccion {
-   font-size: 25px;
-   font-weight: 200;
-}
-
-#mensajeMarcas {
-   font-size: 40px;
-   font-weight: 700;
+.paginasDisponiblesHijos a:hover {
+   color: var(--pruebaColorFondo);
 }
 
 .mensajes {
@@ -113,4 +107,30 @@ a {
    margin: 10px;
    display: flex;
    justify-content: space-between;
+}
+
+.carruselDiv {
+   display: flex;
+   justify-content: center;
+}
+
+.carrusel {
+   margin-top: 40px;
+   width: 800px;
+   height: 400px;
+}
+
+.mensajeMarcas {
+   display: flex;
+   justify-content: center;
+}
+
+#mensajeIntroduccion {
+   font-size: 25px;
+   font-weight: 200;
+}
+
+#mensajeMarcas {
+   font-size: 40px;
+   font-weight: 700;
 }

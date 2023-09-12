@@ -16,9 +16,9 @@
         <div class="contenidoPresentación">
             <div class="mensajes">
                 <span id="mensajeIntroduccion">
-                    <p>FastTracker offers an incredible courier and parcel service with a network that spans
+                    <p>Quick Carry offers an incredible courier and parcel service with a network that spans
                         all of uruguay with branches added over time.</p>
-                    <p>FastTracker is designed to facilitate organization processes when it comes to
+                    <p>Quick Carry was established to facilitate organization processes when it comes to
                         distribute packages throughout uruguay.</p>
                 </span>
             </div>

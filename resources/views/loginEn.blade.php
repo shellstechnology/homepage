@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/styleLogin.css">
     <title>Log-in</title>
 </head>
+@include("headerEn")
 <body>
     <div class="principalBody">
         <div>
@@ -26,4 +27,5 @@
         </div>
     </div>
 </body>
+@include("footerEn")
 </html>
