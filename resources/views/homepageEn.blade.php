@@ -64,17 +64,17 @@
         <div class="paginasDisponibles">
             <div class="paginasDisponiblesHijos">
                 <button>
-                    <a href="">Packages</a>
+                    <a href="/packages">Packages</a>
                 </button>
             </div>
             <div class="paginasDisponiblesHijos">
                 <button>
-                    <a href="">Warehouses</a>
+                    <a href="/warehouses">Warehouses</a>
                 </button>
             </div>
             <div class="paginasDisponiblesHijos">
                 <button>
-                    <a href="">Drivers</a>
+                    <a href="/drivers">Drivers</a>
                 </button>
 
             </div>
