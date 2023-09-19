@@ -46,7 +46,7 @@ a {
     background-color: var(--FondoDelHeader);
     border-radius: 20px;
     color: white;
-    width: 100px;
+    width: 125px;
     border: none;
 
 }
@@ -83,7 +83,7 @@ a {
 .opcionesQuienesSomos a {
     display: block;
     color: var(--colorFondosOscuros);
-    padding: 5px;
+    padding-top: 5px;
 }
 
 .opcionesQuienesSomos a:hover {
