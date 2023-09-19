@@ -11,10 +11,25 @@ body {
     margin: 0;
     padding: 0;
     font-family: Roboto;
+    height: 100%;
+    width: 100%;
 }
 
 a {
     text-decoration: none;
+}
+
+.divPrincipalBody {
+    background-color: var(--pruebaColorFondo);
+    height: 100%;
+    width: 100%;
+    border-width: 2px;
+    border-color: var(--colorBordesClaro);
+    border-style: groove;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
 }
 
 .container {
@@ -71,8 +86,6 @@ a {
 }
 
 .step.empty .line {
-    /*     visibility: hidden; */
-    /*   height: 150%; */
     top: 0;
     height: 150%;
 }
@@ -81,7 +94,6 @@ a {
 .step:last-child .line {
     border-left: 3px solid white;
     z-index: -1;
-    /* behind the circle to completely hide */
 }
 
 .content {
@@ -90,9 +102,30 @@ a {
 }
 
 
-/* codepen override */
-html * {
-    font-size: 15px !important;
-    color: #000 !important;
-    font-family: Arial !important;
+.campoTexto {
+    width: 300px;
+    height: 25px;
+    margin-left: calc(50% - 160px);
+    margin-top: 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.botonSubmit {
+    margin-top: 25px;
+    margin-left: calc(50% - 75px);
+    width: 125px;
+    height: 25px;
+    border: none;
+}
+
+.botonSubmit:hover {
+    cursor: pointer;
+    background-color: rgb(180, 194, 206);
+
+}
+
+.formulario {
+    height: 200px;
+    width: 200px;
 }

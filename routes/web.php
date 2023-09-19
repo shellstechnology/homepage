@@ -43,18 +43,9 @@ Route::get('/trabajaConNosotros', function () {
 Route::get('/paquetes', function () {
     return view('paquetes');
 });
-Route::get('/packages', function () {
-    return view('paquetes');
-});
 Route::get('/choferes', function () {
     return view('choferes');
 });
-Route::get('/drivers', function () {
-    return view('drivers');
-});
 Route::get('/almacenes', function () {
     return view('almacenes');
-});
-Route::get('/drawers', function () {
-    return view('drawers');
 });

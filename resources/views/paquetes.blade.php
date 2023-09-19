@@ -10,6 +10,13 @@
 <body>
     @include('header')
     <div class="divPrincipalBody">
+        <div class="formulario">
+            <form action="#" method="post">
+                @csrf
+                <input class="campoTexto" type="number" name="paquete" id="paquete" placeholder="Ingrese el id del paquete:"><br>
+                <input class="botonSubmit" type="submit" value="Buscar Paquete">
+            </form>
+        </div>
 
         <div class="container">
 
@@ -20,9 +27,7 @@
                 </div>
 
                 <div class="content">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    El paquete ha llegado a su destino.
                 </div>
             </div>
 
@@ -33,19 +38,7 @@
                 </div>
 
                 <div class="content">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                </div>
-            </div>
-
-            <div class="step empty">
-                <div class="v-stepper">
-                    <div class="circle"></div>
-                    <div class="line"></div>
-                </div>
-
-                <div class="content">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                    Lorem Ipsum is simply dummy text of the printing and typesetting
+                    El paquete ha salido del almacen y se encuentra en camino.
                 </div>
             </div>
 
@@ -56,14 +49,11 @@
                 </div>
 
                 <div class="content">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    El paquete no ha salido del almacén.
                 </div>
             </div>
         </div>
     </div>
-
 </body>
 @include('footer')
 </html>
