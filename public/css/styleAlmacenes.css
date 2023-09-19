@@ -1,0 +1,130 @@
+:root {
+    --colorFondoClaro: rgb(240, 240, 240);
+    --colorBordesClaro: #3A4138;
+    --colorFondosOscuros: #FFFFFF;
+    --colorLetrasOscuras: #FFFFFF;
+    --pruebaColorFondo: #f3dcbe;
+    --blanco: #FFFFFF;
+    --colorBody: #f3dcbe;
+    --colorInput: #f3dcbe;
+    --colorTexto: black;
+    --colorBotones: #f3dcbe;
+    --colorCajaDatos: #ada190;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+    background-color: var(--pruebaColorFondo);
+    height: calc(100%);
+    width: calc(100%);
+    border-width: 2px;
+    border-color: var(--colorBordesClaro);
+    border-style: groove;
+}
+
+.barraDeNavegacion {
+    background-color: var(--colorBody);
+    width: 50%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 25%;
+    margin-top: 20px;
+}
+
+.cuerpo {
+    background-color: var(--colorBody);
+    flex: 1;
+    min-width: 0;
+    max-height: 60%;
+}
+
+.item {
+    flex: 1;
+    padding-top: 15px;
+    margin-left: 3px;
+    margin-right: 3px;
+    border: 2px black solid;
+    text-align: center;
+}
+
+.container {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    max-height: 70%;
+}
+
+#contenedorTabla {
+    flex: 1;
+    width: auto;
+    background-color: var(--colorBody);
+    border: solid black 2px;
+    margin-top: 20px;
+    margin-left: 1%;
+    max-width: 94%;
+    max-height: 400px;
+    overflow-y: scroll;
+}
+
+table {
+    table-layout: fixed;
+}
+
+table th,
+table td {
+    width: 10%;
+    padding: 10px;
+    text-align: left;
+}
+
+.cajaDatos {
+    flex: 0 0 300px;
+    background-color: var(--colorCajaDatos);
+    margin-left: -2%;
+    width: 300px;
+}
+
+.contenedorDatos {
+    display: block;
+}
+
+input {
+    margin-top: 15px;
+    margin-left: 10px;
+    width: 250px;
+    height: 20px;
+    background-color: var(--colorInput);
+    border: none;
+}
+
+input::placeholder {
+    color: var(--colorTexto);
+}
+
+input[type="checkbox"] {
+    width: 10px;
+    display: inline;
+    margin-top: 15px;
+}
+
+button {
+    display: inline;
+    margin-left: 6px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: var(--colorTexto);
+    background-color: var(--colorBotones);
+    border: none;
+}
+
+button:hover {
+    background-color: var(--colorCajaDatos);
+    cursor: pointer;
+}
+
+.campo {
+    display: block;
+}
