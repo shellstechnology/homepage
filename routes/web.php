@@ -49,3 +49,9 @@ Route::get('/choferes', function () {
 Route::get('/almacenes', function () {
     return view('almacenes');
 });
+Route::get('/choferesPaquetes', function () {
+    return view('choferesPaquetes');
+});
+Route::get('/choferesRuta', function () {
+    return view('choferesRuta');
+});
