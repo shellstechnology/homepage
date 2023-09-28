@@ -21,9 +21,6 @@ a {
    background-color: var(--pruebaColorFondo);
    height: 100%;
    width: 100%;
-   border-width: 2px;
-   border-color: var(--colorBordesClaro);
-   border-style: groove;
    display: flex;
    align-content: space-around;
    padding: 10px;
@@ -157,17 +154,4 @@ a {
       height: 300px;
    }
 
-   .paginasDisponiblesHijos {
-      margin-top: 20px;
-      margin-bottom: 20px;
-      height: 50px;
-   }
-
-   .paginasDisponiblesHijos a {
-      height: 50px;
-   }
-
-   .paginasDisponiblesHijos button {
-      height: 50px;
-   }
 }

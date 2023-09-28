@@ -28,6 +28,6 @@
         </div>
     </div>
 </body>
-@include("footerEn")
+@include("footer")
 
 </html>
