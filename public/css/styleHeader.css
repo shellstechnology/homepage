@@ -27,7 +27,7 @@ a {
     border-color: var(--colorBordesClaro);
     background-color: var(--FondoDelHeader);
     align-content: space-evenly;
-
+    position: top;
 }
 
 .logoHeader {
