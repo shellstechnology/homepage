@@ -12,7 +12,8 @@
 
 <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark border-bottom border-body" data-bs-theme="dark">
     <div class="container-fluid">
-        <a class="navbar-brand"> FastTracker Todos los derechos reservados <span><i class="bi bi-c-circle"></i></span> </a>
+        <a class="navbar-brand"> <i class="bi bi-c-circle"> </a>
+        <a class="navbar-brand"> Quick Carry Todos los derechos reservados </a>
     </div>
     </div>
 </nav>

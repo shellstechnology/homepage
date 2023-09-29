@@ -50,7 +50,7 @@ a {
    align-content: space-around;
    margin: 10px;
    flex-direction: column;
-   border-color: black;
+   border-color: #2b3035;
    border-width: 2px;
    border-style: ridge;
 }
@@ -65,7 +65,7 @@ a {
    margin: auto;
    border-radius: 20px;
    text-decoration: none;
-   color: black;
+   color: #2b3035;
    margin-top: 50px;
    margin-bottom: 50px;
 }
@@ -74,7 +74,7 @@ a {
    border-radius: 2px;
    width: 70%;
    height: 90px;
-   background-color: var(--FondoDelHeader);
+   background-color: #2b3035;
    color: white;
 }
 
@@ -131,7 +131,7 @@ a {
    font-weight: 700;
 }
 
-@media screen and (min-width: 360px) and (max-width: 560px) {
+@media screen and (min-width: 200px) and (max-width: 560px) {
    .contenido {
       height: 90%;
       padding: 5px;
@@ -142,16 +142,17 @@ a {
    }
 
    #mensajeMarcas {
-      font-size: calc(100%);
+      height: calc(20%);
       font-weight: 400;
+      font-size: calc(150%);
    }
 
    .paginasDisponibles {
-      margin-top: 50px;
+      margin-top: 25px;
       flex-direction: column;
       align-content: center;
       width: calc(100% - 20px);
-      height: 300px;
+      height: calc(80% - 100px);
    }
 
 }
