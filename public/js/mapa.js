@@ -19,13 +19,11 @@ var ico2 = L.icon({
     popupAnchor: [-3, -76]
 })
 
-window.addEventListener("DOMContentLoaded", (event) => {
-    var mapa = document.getElementById('map');
-    if (mapa = !null) {
-        crearMapa();
-        agregarPunto();
-    }
-})
+var mapa = document.getElementById('map');
+if (mapa = !null) {
+    crearMapa();
+    agregarPunto();
+}
 
 function agregarPunto() {
     puntos.forEach(puntoMapa => {

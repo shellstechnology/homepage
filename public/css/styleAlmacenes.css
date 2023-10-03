@@ -1,25 +1,37 @@
 :root {
     --colorFondoClaro: rgb(240, 240, 240);
-    --colorBordesClaro: #3A4138;
+    --colorBordesClaro: #f3dcbe;
     --colorFondosOscuros: #FFFFFF;
     --colorLetrasOscuras: #FFFFFF;
     --pruebaColorFondo: #f3dcbe;
     --blanco: #FFFFFF;
     --colorBody: #f3dcbe;
-    --colorInput: #f3dcbe;
-    --colorTexto: black;
-    --colorBotones: #f3dcbe;
-    --colorCajaDatos: #ada190;
+    --colorInput: #ecc18f;
+    --colorTexto: white;
+    --colorBotones: #dfbe94;
+    --colorCajaDatos: #aa7e4b;
 }
 
 body {
     margin: 0;
     padding: 0;
     font-family: Roboto;
-    background-color: var(--pruebaColorFondo);
-    height: calc(100%);
-    width: calc(100%);
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #f3dcbe;
+    height: 700px;
 }
+
+
+.principalDiv {
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: var(--pruebaColorFondo);
+    height: 700px;
+    width: 100%;
+    padding: 10px;
+}
+
 
 .barraDeNavegacion {
     background-color: var(--colorBody);
@@ -51,7 +63,10 @@ body {
     margin-top: 20px;
     display: flex;
     flex-wrap: wrap;
-    max-height: 70%;
+    max-height: 700px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #f3dcbe;
 }
 
 #contenedorTabla {
@@ -79,13 +94,18 @@ table td {
 
 .cajaDatos {
     flex: 0 0 300px;
-    background-color: var(--colorCajaDatos);
-    margin-left: -2%;
+    background: linear-gradient(#a06f6f, #af8f65);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 300px;
+    padding: 10px;
+    border: 1px solid black;
 }
 
 .contenedorDatos {
     display: block;
+    margin-top: 10px;
 }
 
 input {
@@ -118,10 +138,17 @@ button {
 }
 
 button:hover {
-    background-color: var(--colorCajaDatos);
+    background-color: rgb(180, 194, 206);
     cursor: pointer;
 }
 
 .campo {
     display: block;
+}
+
+#map {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 350px;
+    width: 350px;
 }

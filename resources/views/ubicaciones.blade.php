@@ -11,7 +11,6 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.css" />
     <script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"></script>
     <script src="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.js"></script>
-    <script src="js/mapa.js"></script>
     <title>Ubicaciones</title>
 </head>
 @include("header")
@@ -23,5 +22,6 @@
         </div>
     </div>
 </body>
+<script src="js/mapa.js"></script>
 @include("footer")
 </html>
