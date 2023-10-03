@@ -55,3 +55,6 @@ Route::get('/choferesPaquetes', function () {
 Route::get('/choferesRuta', function () {
     return view('choferesRuta');
 });
+Route::get('/trabaja', function () {
+    return view('trabaja');
+});

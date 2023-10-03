@@ -19,9 +19,6 @@ body {
     background-color: var(--pruebaColorFondo);
     height: calc(100%);
     width: calc(100%);
-    border-width: 2px;
-    border-color: var(--colorBordesClaro);
-    border-style: groove;
 }
 
 .barraDeNavegacion {

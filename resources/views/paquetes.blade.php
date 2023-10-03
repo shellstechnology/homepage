@@ -10,46 +10,49 @@
 <body>
     @include('header')
     <div class="divPrincipalBody">
-        <div class="formulario">
-            <form action="#" method="post">
-                @csrf
-                <input class="campoTexto" type="number" name="paquete" id="paquete" placeholder="Ingrese el id del paquete:"><br>
-                <input class="botonSubmit" type="submit" value="Buscar Paquete">
-            </form>
-        </div>
+        <div>
 
-        <div class="container">
-
-            <div class="step completed">
-                <div class="v-stepper">
-                    <div class="circle"></div>
-                    <div class="line"></div>
-                </div>
-
-                <div class="content">
-                    El paquete ha llegado a su destino.
-                </div>
+            <div class="formulario">
+                <form action="#" method="post">
+                    @csrf
+                    <input class="campoTexto" type="number" name="paquete" id="paquete" placeholder="Ingrese el id del paquete:"><br>
+                    <input class="botonSubmit" type="submit" value="Buscar Paquete">
+                </form>
             </div>
 
-            <div class="step active">
-                <div class="v-stepper">
-                    <div class="circle"></div>
-                    <div class="line"></div>
+            <div class="container">
+
+                <div class="step completed">
+                    <div class="v-stepper">
+                        <div class="circle"></div>
+                        <div class="line"></div>
+                    </div>
+
+                    <div class="content">
+                        El paquete ha llegado a su destino.
+                    </div>
                 </div>
 
-                <div class="content">
-                    El paquete ha salido del almacen y se encuentra en camino.
-                </div>
-            </div>
+                <div class="step active">
+                    <div class="v-stepper">
+                        <div class="circle"></div>
+                        <div class="line"></div>
+                    </div>
 
-            <div class="step">
-                <div class="v-stepper">
-                    <div class="circle"></div>
-                    <div class="line"></div>
+                    <div class="content">
+                        El paquete ha salido del almacen y se encuentra en camino.
+                    </div>
                 </div>
 
-                <div class="content">
-                    El paquete no ha salido del almacén.
+                <div class="step">
+                    <div class="v-stepper">
+                        <div class="circle"></div>
+                        <div class="line"></div>
+                    </div>
+
+                    <div class="content">
+                        El paquete no ha salido del almacén.
+                    </div>
                 </div>
             </div>
         </div>
