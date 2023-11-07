@@ -28,7 +28,7 @@ if (mapa = !null) {
 function agregarPunto() {
     puntos.forEach(puntoMapa => {
         var coordenadas = puntoMapa.split(',')
-        var mark = L.marker([coordenadas[0], coordenadas[1]], { icon: ico2 }).addTo(map).bindPopup("AHHHHHHHHHHH");
+        var mark = L.marker([coordenadas[0], coordenadas[1]], { icon: ico2 }).addTo(map);
         markers.push(mark);
     });
 }

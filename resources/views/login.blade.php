@@ -18,7 +18,7 @@
                         <img src="\img\Logo Aplicación.png" alt="FastTrackerLogo" width="150" height="150">
                     </div>
                 </div>
-                <form action="#" method="post">
+                <form action="{{route('login')}}" method="post">
                     @csrf
                     <input class="campoTexto" type="text" name="usuario" id="usuario" placeholder="Ingrese su usuario: "> <br>
                     <input class="campoTexto" type="password" name="password" id="password" placeholder="Ingrese su contraseña: "> <br>
