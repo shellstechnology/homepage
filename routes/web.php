@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\estadoPaqueteController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\loginController;
 
@@ -43,7 +44,7 @@ Route::get('/trabajaConNosotros', function () {
 });
 Route::get('/paquetes', function () {
     return view('paquetes');
-});
+})->name('paquetes');
 Route::get('/choferes', function () {
     return view('choferes');
 });
@@ -61,3 +62,4 @@ Route::get('/trabaja', function () {
 });
 
 Route::post('/login', [loginController::class, 'login'])->name('login');
+Route::post('/paquete',[estadoPaqueteController::class, 'obtenerEstadoPaquete'])->name('estadoPaquete');
