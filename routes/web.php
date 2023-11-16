@@ -27,12 +27,6 @@ Route::get('/presentacion', function () {
 Route::get('/presentation', function () {
     return view('presentation');
 });
-Route::get('/login', function () {
-    return view('login');
-});
-Route::get('/loginEn', function () {
-    return view('loginEn');
-});
 Route::get('/ubicaciones', function () {
     return view('ubicaciones');
 });
@@ -48,18 +42,8 @@ Route::get('/paquetes', function () {
 Route::get('/choferes', function () {
     return view('choferes');
 });
-Route::get('/almacenes', function () {
-    return view('almacenes');
-});
-Route::get('/choferesPaquetes', function () {
-    return view('choferesPaquetes');
-});
-Route::get('/choferesRuta', function () {
-    return view('choferesRuta');
-});
 Route::get('/trabaja', function () {
     return view('trabaja');
 });
 
-Route::post('/login', [loginController::class, 'login'])->name('login');
 Route::post('/paquete',[estadoPaqueteController::class, 'obtenerEstadoPaquete'])->name('estadoPaquete');

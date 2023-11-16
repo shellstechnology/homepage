@@ -83,14 +83,14 @@
             </div>
 
             <div class="paginasDisponiblesHijos">
-                <a href="/almacenes">
+                <a href="http://localhost:8006/">
                     <button>
                         Almacenes
                     </button>
                 </a>
             </div>
             <div class="paginasDisponiblesHijos">
-                <a href="/choferes">
+                <a href="http://localhost:8005/">
                     <button>
                         Choferes
                     </button>

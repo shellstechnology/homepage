@@ -30,10 +30,6 @@
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/login">Log-in</a>
-                </li>
-
-                <li class="nav-item">
                     <a class="nav-link" href="/homepageEn">Español -> Ingles</a>
                 </li>
             </ul>

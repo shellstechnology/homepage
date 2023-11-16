@@ -20,15 +20,11 @@
                         About Us
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="/presentation">Presentación</a></li>
-                        <li><a class="dropdown-item" href="/ubications">Ubicaciones</a></li>
-                        <li><a class="dropdown-item" href="/trabaja">Trabaja Con Nosotros</a></li>
+                        <li><a class="dropdown-item" href="/presentation">Presentations</a></li>
+                        <li><a class="dropdown-item" href="/ubications">Locations</a></li>
+                        <li><a class="dropdown-item" href="/trabaja">Work With Us</a></li>
                     </ul>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/loginEn">Log-in</a>
-                </li>
-
                 <li class="nav-item">
                     <a class="nav-link" href="/">English -> Spanish</a>
                 </li>

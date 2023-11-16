@@ -69,17 +69,17 @@ a {
 
 .step.completed .circle {
     visibility: visible;
-    background-color: rgb(6, 150, 215);
-    border-color: rgb(6, 150, 215);
+    background-color: gray;
+    border-color: gray;
 }
 
 .step.completed .line {
-    border-left: 3px solid rgb(6, 150, 215);
+    border-left: 3px solid gray;
 }
 
 .step.active .circle {
     visibility: visible;
-    border-color: rgb(6, 150, 215);
+    border-color: gray;
 }
 
 .step.empty .circle {

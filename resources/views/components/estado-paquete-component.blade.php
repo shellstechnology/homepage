@@ -36,16 +36,29 @@
         </div>
     </div>
     <script>
-        var datos = <?php echo json_encode($datos); ?>;
-        console.log(datos);
-        var estado = datos['id_estado_p']
-        console.log(estado);
+          $(document).ready(function () {
         var stepCircle = document.getElementById("step-circle");
         var stepLine = document.getElementById("step-line");
         var activeCircle = document.getElementById("active-circle");
         var activeLine = document.getElementById("active-line");
         var completedCircle = document.getElementById("completed-circle");
         var completedLine = document.getElementById("completed-line");
+        var datos = <?php echo json_encode($datos); ?>;
+        if(datos==null){
+            stepCircle.style.backgroundColor = "white";
+            stepCircle.style.borderColor = "red";
+            stepLine.style.borderColor = "red";
+            activeCircle.style.backgroundColor = "white";
+            activeCircle.style.borderColor = "red";
+            activeLine.style.borderColor = "red";
+            completedCircle.style.backgroundColor = "white";
+            completedCircle.style.borderColor = "red";
+            completedLine.style.borderColor = "red";
+            setTimeout(function() {
+                alert("El paquete no se pudo encontrar o no se detecta su estado")
+            }, 500);
+        }else{
+        var estado = datos['id_estado_p']
         if (estado == 1) {
             stepCircle.style.backgroundColor = "rgb(6, 150, 215)"
             stepCircle.style.borderColor = "rgb(6, 150, 215)";
@@ -88,6 +101,21 @@
             completedLine.style.borderColor = "rgb(6, 150, 215)";
         }
 
+        if(estado!=1&&estado!=2&&estado!=3&&estado!=null){
+            stepCircle.style.backgroundColor = "white";
+            stepCircle.style.borderColor = "red";
+            stepLine.style.borderColor = "red";
+        
+            activeCircle.style.backgroundColor = "white";
+            activeCircle.style.borderColor = "red";
+            activeLine.style.borderColor = "red";
+            
+            completedCircle.style.backgroundColor = "white";
+            completedCircle.style.borderColor = "red";
+            completedLine.style.borderColor = "red";
+            alert("El paquete no existe o no se detecta su estado")
+        }
+
         if(!estado){
             stepCircle.style.backgroundColor = "white";
             stepCircle.style.borderColor = "gray";
@@ -101,5 +129,11 @@
             completedCircle.style.borderColor = "gray";
             completedLine.style.borderColor = "gray";
         }
+    }
+});
     </script>
+    
+    @php
+    Session::put('estadoPaquete','');
+    @endphp
 </div>
